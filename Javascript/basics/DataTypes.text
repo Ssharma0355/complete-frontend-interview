@@ -1,0 +1,20 @@
+Primitive Types
+
+(Immutable values.)
+
+string
+number
+boolean
+null
+undefined
+symbol
+bigint
+
+
+Non-Primitive
+
+Object
+Array
+Function
+
+(Stored by reference.)
