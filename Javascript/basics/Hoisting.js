@@ -3,7 +3,7 @@ console.log(b); // ReferenceError: Cannot access 'b' before initialization
 console.log(c); // ReferenceError: Cannot access 'b' before initialization
 
 
-var a; // Hoisted by Undefiend 
+var a; // Hoisted and initialized with undefined 
 let b; // Hoisted but remain in  Temporal Dead Zone until initialization
 
 // const c;
