@@ -15,3 +15,10 @@ const counter = outer();
 counter(); //1
 counter(); //2
 counter(); //3
+
+// Real Frontend Uses
+// - React hooks
+// - Event handlers
+// - Debounce
+// - Memoization
+// - Private variables
