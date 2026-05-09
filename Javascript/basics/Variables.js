@@ -24,3 +24,4 @@ console.log(d) //TypeError: Assignment to constant variable.
 
 
 
+
