@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 function TrafficLight({config}) {
     const [index, setIndex] = useState(0)
     const CurrentLight = config[index];
+    // console.log(CurrentLight)
 
     useEffect(()=>{
         const timer = setTimeout(()=>{

@@ -20,7 +20,7 @@ const user = {
 }
 
 //it copies in different memory location that's why it doesn't give
-
+// Completely independent copy.
 const deep = JSON.parse(JSON.stringify(user))
 deep.address.city="Bengaluru"
 console.log(user.address.city) // Banglore
