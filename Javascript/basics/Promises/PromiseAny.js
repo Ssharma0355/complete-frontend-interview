@@ -15,3 +15,7 @@ Promise.any([p1,p2,p3])
 
 // [AggregateError: All promises were rejected] {
 //   [errors]: [ 'A', 'B', 'C' ]}
+
+// Multiple backup APIs
+// CDN fallback
+// First successful server response
