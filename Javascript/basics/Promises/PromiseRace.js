@@ -11,3 +11,9 @@ const p3 = Promise.reject("C")
 Promise.race([p1,p2,p3])
 .then((res)=>console.log(res)) // always show A resolve ore rejected only winer wins
 .catch((err)=>console.log("err",err))
+
+
+// Use Case
+// API timeout handling
+// Fastest server response
+// Abort slow requests
