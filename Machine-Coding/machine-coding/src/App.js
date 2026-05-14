@@ -1,9 +1,9 @@
 import React from 'react'
-import Base from './Problems/CustomHooks/Base'
+import Search from './Problems/CustomHooks/Search'
 function App() {
   return (
     <div>
-      <Base />
+      <Search />
       
     </div>
   )
