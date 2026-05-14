@@ -1,11 +1,9 @@
 import React from 'react'
-import TrafficLight from './Problems/TrafficLight/TrafficLight'
-import ParentTraffic from './Problems/TrafficLight/ParentTraffic'
-
+import Base from './Problems/CustomHooks/Base'
 function App() {
   return (
     <div>
-     <ParentTraffic />
+      <Base />
       
     </div>
   )
