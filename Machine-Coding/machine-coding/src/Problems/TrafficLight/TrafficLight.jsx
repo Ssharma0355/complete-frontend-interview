@@ -25,7 +25,6 @@ function TrafficLight({config}) {
                     width:"30px",
                     margin:"8px",
                     backgroundColor:`${CurrentLight.id === Traffic.id ? Traffic.color  :"white"}`
-                    
                     }}>
                     </div>
             ))}
