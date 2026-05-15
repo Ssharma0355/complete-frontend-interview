@@ -14,9 +14,7 @@ function Search() {
             {debouncedValue.map(r=>(
                 <li key={r.id}>{r.name}</li>
             ))}
-
         </div>
-      
     </div>
   )
 }
