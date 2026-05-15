@@ -15,6 +15,9 @@ function useDebounce(delay, search, url) {
                 catch(err){
                     console.log(err)
                 }
+                finally{
+                    console.log("done")
+                }
             }
             getData()
         },delay)
