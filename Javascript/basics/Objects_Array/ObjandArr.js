@@ -1,5 +1,9 @@
 // Object is stored in key an values 
 // Array is stored in a ordered collection 
+// Object stored - Key-value pairs 
+// Array in Ordered List
+// User {} User []
+// access using key in Obj and access using Index in Array
 
 const Object = {
     name:"Sachin"
