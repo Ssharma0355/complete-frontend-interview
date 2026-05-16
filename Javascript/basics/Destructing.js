@@ -8,3 +8,9 @@ const User = {
 const {name, email} = User;
 console.log(name)
 console.log(email)
+
+const Person =["Sachin","Sharma","ss@email.com"]
+
+const [first, second] = Person;
+
+console.log(first)
