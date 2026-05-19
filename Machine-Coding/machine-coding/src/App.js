@@ -1,9 +1,9 @@
 import React from 'react'
-import Search from './Problems/CustomHooks/Search'
+import FormTab from './Problems/Tab-Form/FormTab'
 function App() {
   return (
     <div>
-      <Search />
+      <FormTab />
       
     </div>
   )
