@@ -1,22 +1,26 @@
 import React from 'react'
 
-function Personal({setData, data, error}) {
-    const {name, email, ph} = data;
-    const handleChange =(e,name)=>{
-        setData(prevState => [{...prevState,[name]:e.target}])
+function Personal({data, setData}) {
+  const {name, email, phone} = data;
 
-    }
+  const handleChange=(e)=>{
+  const {id, value} = e.target
+  setData(prev =>({
+    ...prev,
+    [id]:value
+  }))
+
+  }
   return (
     <div>
-      <label>Name*</label>
-      <input type='text' name={name} value={name} onChange={(e)=> handleChange(e,name)} />
+      <label >Name</label>
+      <input type="text" id='name' value={name} onChange={handleChange} />
       <br />
-      {error && <p style={{color:"red"}}>{error}</p>}
-      <label>Email*</label>
-      <input type='text' name={email} value={email} onChange={(e)=> handleChange(e,name)} />
+      <label >Email</label>
+      <input type="text" id='email' value={email} onChange={handleChange} />
       <br />
-      <label>Phone Number*</label>
-      <input type='number' name={ph} value={ph} onChange={(e)=> handleChange(e,name)} />
+      <label >Phone Number</label>
+      <input type="text" id='phone' value={phone} onChange={handleChange} />
       <br />
     </div>
   )
