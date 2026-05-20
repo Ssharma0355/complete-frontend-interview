@@ -1,5 +1,5 @@
 
-function Review({data, setData}) {
+function Review({data, setData,error}) {
     const {agree} = data
 
     const check = () => {
@@ -13,6 +13,7 @@ function Review({data, setData}) {
     <div>
        <h1>Name: {data.name}</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eligendi nemo perspiciatis quis excepturi accusamus eos tempore, vero re.</p>
+      {error && <p style={{color:"red"}}>{error}</p>}
       <button onClick={check}>Do you agree?{data.agree ? "Yes" : "No"}</button>
 
     </div>

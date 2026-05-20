@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Address({data , setData}) {
+function Address({data , setData, error}) {
     const {address, pincode} = data;
 
     const handleChange =(e)=>{
@@ -16,9 +16,11 @@ function Address({data , setData}) {
         <label >Address</label>
         <input type="text" id="address" value={address} onChange={handleChange} />
         <br />
+        {error && <p style={{color:"red"}}>{error}</p>}
         <label >Pin Code</label>
         <input type="text" id="pincode" value={pincode} onChange={handleChange} />
         <br />
+        {error && <p style={{color:"red"}}>{error}</p>}
       
     </div>
   )
