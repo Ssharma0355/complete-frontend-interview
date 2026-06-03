@@ -63,6 +63,7 @@ function Pagination() {
                 backgroundColor:`${currentPage === n ? "red":""}`
             }} key={n}>{n}</span>
           ))}
+          <h1>need to complte assignment</h1>
           <button disabled={currentPage === noOfPages-1} onClick={goNext}>Right Arrow</button>
         </div>
     </div>
