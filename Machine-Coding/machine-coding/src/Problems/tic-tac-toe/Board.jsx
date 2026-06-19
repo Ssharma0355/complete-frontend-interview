@@ -46,6 +46,7 @@ function Board() {
     <div style={{ margin: "20px" }}>
         {whoWon ? <p>{whoWon} win the game</p>:
         <>
+        <h1>{isXTurn ? "X":"0"} Turns</h1>
            <div style={boardStyle}>
         <Square onClick={()=>{handleClick(0)}} value={state[0]} />
         <Square  onClick={()=>{handleClick(1)}} value={state[1]}/>
@@ -62,10 +63,7 @@ function Board() {
         <Square  onClick={()=>{handleClick(8)}} value={state[8]}/>
       </div>
         </>
-        
         }
-         
-   
     </div>
   );
 }
