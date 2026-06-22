@@ -3,7 +3,7 @@ import FormTab from "./Problems/Tab-Form/FormTab";
 import ValidForm from "./Problems/Form-Validation/ValidForm";
 import Pagination from "./Problems/Pagination/Pagination";
 import Board from "./Problems/tic-tac-toe/Board";
-import QueryTodo from "./React-Query/QueryTodo";
+import Prod from "./Revision/Prod";
 // import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div>
+      <Prod />
   
     </div>
   );
