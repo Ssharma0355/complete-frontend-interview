@@ -4,6 +4,7 @@ import ValidForm from "./Problems/Form-Validation/ValidForm";
 import Pagination from "./Problems/Pagination/Pagination";
 import Board from "./Problems/tic-tac-toe/Board";
 import Prod from "./Revision/Prod";
+import FileExp from "./Problems/File-Explorer/FileExp";
 // import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
 
   return (
     <div>
-      <Prod />
+      {/* <Prod /> */}
+      <FileExp />
   
     </div>
   );
