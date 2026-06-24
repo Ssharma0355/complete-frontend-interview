@@ -21,6 +21,8 @@ function FileExp() {
                     {isExpland && node?.children && 
                     <div style={{marginLeft:"20px", borderTop:"1px dotted gray", padding:"12px"}}>
                     <List list={node.children} />
+                    <List list={node.children} />
+
                     </div>}
                  </div>
                     )}
