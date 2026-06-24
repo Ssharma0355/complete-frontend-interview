@@ -2,16 +2,16 @@
     {
         "id":"1",
         "name":"public",
-        "isFolder":"true",
+        "isFolder":true,
         "children":[
             {
-                "id":"2",
-                "name":"index.html",
-                "isFolder":"false",
+                "id":"6",
+                "name":"Sachin",
+                "isFolder":true,
                 "children":[{
                     "id":"6",
-                    "name":"Sachin",
-                    "isFolder":"true"
+                    "name":"index.html",
+                    "isFolder":false
                 }]
             }
         ]
@@ -19,12 +19,12 @@
     {
         "id":"3",
         "name":"src",
-        "isFolder":"true",
+        "isFolder":true,
         "children":[
             {
                 "id":"4",
                 "name":"React.js",
-                "isFolder":"false"
+                "isFolder":false
             }
         ]
     }
