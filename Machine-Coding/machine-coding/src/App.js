@@ -5,6 +5,7 @@ import Pagination from "./Problems/Pagination/Pagination";
 import Board from "./Problems/tic-tac-toe/Board";
 import Prod from "./Revision/Prod";
 import FileExp from "./Problems/File-Explorer/FileExp";
+import Timer from "./Problems/Timer/Timer";
 // import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
   return (
     <div>
       {/* <Prod /> */}
-      <FileExp />
+      {/* <FileExp /> */}
+      <Timer />
   
     </div>
   );
