@@ -4,10 +4,12 @@ import json from "./data.json";
 function FileExp() {
   const [data, setData] = useState(json);
   console.log(data);
+  const addNodeList=(id)=>{
+
+  }
 
   const List = ({ list }) => {
-    const [isExpland, setIsExpland] = useState({});
-
+  const [isExpland, setIsExpland] = useState({});
     return (
       <div>
         {list.map((node) => (
@@ -28,7 +30,7 @@ function FileExp() {
             )}
             <span>
               {node.name}{" "}
-              {node.isFolder ? <button style={{marginLeft:"12px"}}>Add Folder</button> : ""}
+              {node.isFolder ? <button onClick={()=>{addNodeList(node.id)}} style={{marginLeft:"12px"}}>Add Folder</button> : ""}
             </span>
             {isExpland?.[node.name] && node?.children && (
               <div
