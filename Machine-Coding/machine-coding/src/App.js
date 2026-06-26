@@ -14,8 +14,8 @@ function App() {
   return (
     <div>
       {/* <Prod /> */}
-      {/* <FileExp /> */}
-      <Timer />
+      <FileExp />
+      {/* <Timer /> */}
   
     </div>
   );
