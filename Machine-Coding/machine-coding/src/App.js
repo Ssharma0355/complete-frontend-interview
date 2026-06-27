@@ -6,6 +6,7 @@ import Board from "./Problems/tic-tac-toe/Board";
 import Prod from "./Revision/Prod";
 import FileExp from "./Problems/File-Explorer/FileExp";
 import Timer from "./Problems/Timer/Timer";
+import ParentProgress from "./Problems/ProgressBar/ParentProgress";
 // import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <div>
       {/* <Prod /> */}
       {/* <FileExp /> */}
-      <Timer />
+      {/* <Timer /> */}
+      <ParentProgress />
   
     </div>
   );
