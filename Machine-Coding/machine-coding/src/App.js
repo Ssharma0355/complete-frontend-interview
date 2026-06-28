@@ -7,6 +7,7 @@ import Prod from "./Revision/Prod";
 import FileExp from "./Problems/File-Explorer/FileExp";
 import Timer from "./Problems/Timer/Timer";
 import ParentProgress from "./Problems/ProgressBar/ParentProgress";
+import PageNation from "./Revision/Pagenation/PageNation";
 // import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       {/* <Prod /> */}
       {/* <FileExp /> */}
       {/* <Timer /> */}
-      <ParentProgress />
+      {/* <ParentProgress /> */}
+      <PageNation />
   
     </div>
   );
