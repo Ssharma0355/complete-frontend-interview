@@ -52,7 +52,7 @@ function Prod() {
     key={n}>{n}</p>
   ))}
     <button onClick={getNext} disabled={currentPage === NUMBER_OF_PRODUCTS_IN_PAGE-1}>next</button>
-
+     <button>Save</button>
     </div>
 
     
