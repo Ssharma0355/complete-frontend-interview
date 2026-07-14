@@ -8,6 +8,7 @@ import FileExp from "./Problems/File-Explorer/FileExp";
 import Timer from "./Problems/Timer/Timer";
 import ParentProgress from "./Problems/ProgressBar/ParentProgress";
 import PageNation from "./Revision/Pagenation/PageNation";
+import PasswordCheck from "./Problems/WrongPassword/PasswordCheck";
 // import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       {/* <FileExp /> */}
       {/* <Timer /> */}
       {/* <ParentProgress /> */}
-      <PageNation />
+      {/* <PageNation /> */}
+      <PasswordCheck />
   
     </div>
   );
